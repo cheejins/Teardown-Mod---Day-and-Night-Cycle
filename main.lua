@@ -1,11 +1,10 @@
-#include "script/daynight/date.lua"
-
+#include "daynight/script/date.lua"
 
 function init()
     InitTime()
 end
 function tick()
-    ManageTime()
+    TickTime()
 end
 function draw()
     DrawTime()
